@@ -1,0 +1,13 @@
+body {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 20px 50px;
+  background-color: rgb(249, 250, 240);
+}
+a:hover {
+  color: rgb(59, 146, 245);
+}
+h1,
+h2 {
+  color: rgb(75, 122, 167);
+}
