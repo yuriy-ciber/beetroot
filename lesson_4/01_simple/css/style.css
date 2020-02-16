@@ -1,5 +1,4 @@
 body {
-  max-width: 800px;
   font-size: 18px;
   margin: 0 auto;
 }
@@ -16,13 +15,22 @@ footer {
   color: #fff;
   background-color: #000;
 }
+p {
+  margin: 0 15px;
+}
 .main_pic {
   width: 100%;
 }
 .auto__pic {
-  display: inline-block;
-  margin-left: 200px;
+  text-align: center;
 }
 .auto__pic-thumb {
   border: 3px dashed #000;
+}
+.blue {
+  color: blue;
+}
+.italic {
+  font-style: italic;
+  font-weight: bold;
 }
