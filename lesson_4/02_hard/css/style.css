@@ -4,8 +4,7 @@ body {
 header {
   text-align: center;
 }
-.header__pic {
-}
+
 nav {
   margin-left: 0;
   margin-right: 0;
@@ -36,8 +35,7 @@ p {
   color: #fff;
   font-size: 18px;
 }
-.text {
-}
+
 .aside__link {
   padding: 0;
   min-width: 360px;
@@ -68,8 +66,7 @@ p {
 .aside__ul li a {
   text-decoration: underline;
 }
-footer {
-}
+
 .footer__text {
   font-size: 20px;
   text-align: center;
