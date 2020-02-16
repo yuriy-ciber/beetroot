@@ -1,0 +1,28 @@
+body {
+  max-width: 800px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+header {
+  background-color: #a52a2a;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+}
+footer {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+.main_pic {
+  width: 100%;
+}
+.auto__pic {
+  display: inline-block;
+  margin-left: 200px;
+}
+.auto__pic-thumb {
+  border: 3px dashed #000;
+}
