@@ -148,7 +148,8 @@ body {
 }
 .footer__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin: 0 auto;
   max-width: var(--max-width);
@@ -158,7 +159,10 @@ body {
   margin-right: 72px;
 }
 .footer__image-wrapper {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   background-color: var(--main-color);
   width: 64px;
   height: 64px;
@@ -166,7 +170,6 @@ body {
   margin-bottom: 45px;
 }
 .footer__image {
-  position: absolute;
 }
 .footer__caption {
   margin-bottom: 39px;
