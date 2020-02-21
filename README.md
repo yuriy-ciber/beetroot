@@ -1,3 +1,3 @@
 # beetroot
 
-* [Lesson_1](https://github.com/yuriy-ciber/beetroot/tree/master/lesson_1)
+* [Lesson_1](https://yuriy-ciber.githab.io/beetroot/lesson_1)
