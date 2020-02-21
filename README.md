@@ -4,7 +4,8 @@
 * [Lesson_2]
    * [Lesson_2.1](https://yuriy-ciber.github.io/beetroot/lesson_2/h_work2_form)
    * [Lesson_2.2](https://yuriy-ciber.github.io/beetroot/lesson_2/h_work2_link)
-* [Lesson_3]
+* [Lesson_3](https://yuriy-ciber.github.io/beetroot)
+
 * [Lesson_4]
    * [Lesson_4.1](https://yuriy-ciber.github.io/beetroot/lesson_4/01_simple)
    * [Lesson_4.2](https://yuriy-ciber.github.io/beetroot/lesson_4/02_hard)
