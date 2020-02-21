@@ -1,6 +1,6 @@
 # beetroot
 
-* [Lesson_1](https://yuriy-ciber.githab.io/beetroot/lesson_1)
+* [Lesson_1](https://yuriy-ciber.github.io/beetroot/lesson_1)
 * [Lesson_2]()
    * [Lesson_2.1](https://yuriy-ciber.githab.io/beetroot/lesson_2/h_work2_form)
    * [Lesson_2.2](https://yuriy-ciber.githab.io/beetroot/lesson_2/h_work2_link)
