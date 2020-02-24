@@ -12,7 +12,8 @@
   --grey: #669999;
   --dark-grey: #666699;
   --purple: #996699;
-  --min-width: 800px;
+  --border-color: #666699;
+  --max-width: 990px;
   --white: #ffffff;
 }
 * {
@@ -20,9 +21,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-.main {
+body {
   background-color: var(--main-color);
+  border: 15px solid var(--border-color);
   min-height: 100vh;
+  font-family: "Lucida Sans Unicode";
+}
+.header {
+  width: var(--max-width);
+  margin: 0 auto;
+  padding-top: 24px;
 }
 h1 {
   color: var(--white);
@@ -30,9 +38,8 @@ h1 {
   margin-bottom: 20px;
 }
 .container {
-  width: var(--min-width);
+  width: var(--max-width);
   margin: 0 auto;
-  font-family: "Lucida Sans Unicode";
 }
 .container__list-link {
   text-decoration: none;
@@ -41,10 +48,10 @@ h1 {
   font-size: 0;
   list-style: none;
   margin: 0 auto;
-  border: 3px solid var(--white);
+  border: 2px solid var(--white);
   margin-bottom: 20px;
 }
-.container__list:hover {
+.container__list .list_item:not(:hover) {
   opacity: 0.65;
   transition: all 0.1s ease-in;
 }
@@ -55,10 +62,7 @@ h1 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.list_item:hover {
-  opacity: 0.4;
-  transition: all 0.1s ease-in;
-}
+
 .list_item-cityname {
   font-size: 24px;
   color: var(--white);
@@ -68,17 +72,20 @@ h1 {
   color: var(--white);
   opacity: 0.7;
 }
-.list_item-temperature::after {
-  content: " ";
-}
 .wi {
   font-size: 24px;
   color: var(--white);
   opacity: 0.7;
 }
-.container__text {
+.footer {
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: ;
+}
+.footer__text {
   color: var(--white);
   font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .list_item-block1 {
