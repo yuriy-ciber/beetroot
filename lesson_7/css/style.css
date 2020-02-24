@@ -1,0 +1,130 @@
+@import url("weather-icons.css");
+@import url("weather-icons.min.css");
+:root {
+  --main-color: #3399cc;
+  --green: #33cccc;
+  --light-green: #99cc99;
+  --dark-green: #339966;
+  --red: #c24747;
+  --pink: #cc6699;
+  --yellow: #ffcc66;
+  --orange: #e2674a;
+  --grey: #669999;
+  --dark-grey: #666699;
+  --purple: #996699;
+  --min-width: 800px;
+  --white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-color: var(--main-color);
+  min-height: 100vh;
+}
+h1 {
+  color: var(--white);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.container {
+  width: var(--min-width);
+  margin: 0 auto;
+  font-family: "Lucida Sans Unicode";
+}
+.container__list-link {
+  text-decoration: none;
+}
+.container__list {
+  font-size: 0;
+  list-style: none;
+  margin: 0 auto;
+  border: 3px solid var(--white);
+  margin-bottom: 20px;
+}
+.container__list:hover {
+  opacity: 0.65;
+  transition: all 0.1s ease-in;
+}
+.list_item {
+  display: inline-block;
+  border: 2px solid var(--white);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.list_item:hover {
+  opacity: 0.4;
+  transition: all 0.1s ease-in;
+}
+.list_item-cityname {
+  font-size: 24px;
+  color: var(--white);
+}
+.list_item-temperature {
+  font-size: 24px;
+  color: var(--white);
+  opacity: 0.7;
+}
+.list_item-temperature::after {
+  content: " ";
+}
+.wi {
+  font-size: 24px;
+  color: var(--white);
+  opacity: 0.7;
+}
+.container__text {
+  color: var(--white);
+  font-size: 1.2rem;
+}
+
+.list_item-block1 {
+  min-width: 50%;
+  background-color: var(--main-color);
+}
+.list_item-block1:focus {
+  opacity: 1;
+}
+.list_item-block2 {
+  min-width: 25%;
+  background-color: var(--green);
+}
+.list_item-block3 {
+  min-width: 25%;
+  background-color: var(--purple);
+}
+.list_item-block4 {
+  min-width: 25%;
+  background-color: var(--red);
+}
+.list_item-block5 {
+  min-width: 25%;
+  background-color: var(--orange);
+}
+.list_item-block6 {
+  min-width: 25%;
+  background-color: var(--yellow);
+}
+.list_item-block7 {
+  min-width: 25%;
+  background-color: var(--light-green);
+}
+.list_item-block8 {
+  min-width: 25%;
+  background-color: var(--grey);
+}
+.list_item-block9 {
+  min-width: 50%;
+  background-color: var(--pink);
+}
+.list_item-block10 {
+  min-width: 25%;
+  background-color: var(--dark-green);
+}
+.list_item-block11 {
+  min-width: 100%;
+  background-color: var(--dark-grey);
+}
