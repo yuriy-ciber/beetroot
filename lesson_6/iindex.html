@@ -3,25 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <header class="header">
-      <h1 class="titel">css</h1>
-      <h2 class="subtitle">let</h2>
+      <h1 class="header__titel">CSS Diner Shopping List</h1>
+      <h2 class="header__subtitle">Let's go to the mall!</h2>
     </header>
-    <main>
-      <ul>
-        <label for="">
-          <li><input name="shop" type="checkbox" /></li>
-          <span>
-            Lorem, ipsum dolor.
-          </span>
-          <span>
-            Lorem, ipsum dolor.
-          </span>
-        </label>
+    <main class="main">
+      <ul class="list">
+        <li class="list__item">
+          <label class="item">
+            <input class="item__input" name="shop" type="checkbox" />
+            <span class="item__content">
+              <span class="item__name">A lot of pickles</span>
+              <span class="item__description"
+                >for the next lessons about CSS</span
+              >
+            </span>
+          </label>
+        </li>
+        <li class="list__item">
+          <label class="item">
+            <input class="item__input" name="shop" type="checkbox" />
+            <span class="item__content">
+              <span class="item__name">10 appeles</span>
+              <span class="item__description">for more CSS manipulations</span>
+            </span>
+          </label>
+        </li>
+        <li class="list__item">
+          <label class="item">
+            <input class="item__input" name="shop" type="checkbox" />
+            <span class="item__content">
+              <span class="item__name">20 oranges</span>
+              <span class="item__description">because they awesome</span>
+            </span>
+          </label>
+        </li>
+        <li class="list__item">
+          <label class="item">
+            <input class="item__input" name="shop" type="checkbox" />
+            <span class="item__content">
+              <span class="item__name">13 plates</span>
+              <span class="item__description">hm... they always disappear</span>
+            </span>
+          </label>
+        </li>
+        <li class="list__item">
+          <label class="item">
+            <input class="item__input" name="shop" type="checkbox" />
+            <span class="item__content">
+              <span class="item__name">15 bentos</span>
+            </span>
+          </label>
+        </li>
+        <li class="list__item">
+          <label class="item">
+            <input class="item__input" name="shop" type="checkbox" />
+            <span class="item__content">
+              <span class="item__name">1 bottle of Sake ^_^</span>
+              <span class="item__description">for my frends</span>
+            </span>
+          </label>
+        </li>
       </ul>
+      <footer class="footer">Bon appetit :)</footer>
     </main>
   </body>
 </html>
