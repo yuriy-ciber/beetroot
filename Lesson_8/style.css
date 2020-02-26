@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+:root {
+  --main-color: #fdde7e;
+  --green: #02995b;
+  --grey: #bdbdbd;
+  --max-width: 1200px;
+  --white: #ffffff;
+  --black: #333333;
+  --font: "Lato";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--main-color);
+  font-family: var(--font);
+}
+.wrapper {
+  max-width: var(--max-width);
+  height: 100vh;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  background-color: var(--white);
+  border: 1px solid var(--grey);
+  border-radius: 3px;
+  padding: 0 102px 0 102px;
+}
+.list__item--small {
+  padding-top: 42px;
+  padding-bottom: 36px;
+}
+.list__item--big {
+  padding-top: 52px;
+  padding-bottom: 55px;
+}
+.list__item-price {
+  color: var(--green);
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+}
+.wrapper-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 23px 0 38px 0;
+}
+.list__item-steam {
+  margin-bottom: 11px;
+}
+.list__item-cup {
+  margin-right: -15px;
+}
+.list__item-bean {
+  margin-top: -60px;
+}
+.description {
+  width: 156px;
+  height: 116px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-card {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 300;
+}
+.title {
+  color: var(--black);
+  font-size: 32px;
+  font-weight: 400;
+}
+.description__text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--grey);
+}
