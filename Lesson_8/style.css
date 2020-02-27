@@ -6,8 +6,7 @@
   --white: #ffffff;
   --black: #333333;
   --max-width: 1200px;
-  --font:'Lato':
-
+  --font: 'Lato':
 }
 *{
     margin: 0;
@@ -38,6 +37,8 @@ body{
     background-color: var(--white);
     border: 1px solid var(--grey);
     border-radius: 3px;
+    box-shadow: 5px 5px var(--grey);
+   
  }
 .listitem-small {
     padding: 42px 102px 36px;
