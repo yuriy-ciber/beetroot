@@ -13,4 +13,4 @@
 * [Lesson_6](https://yuriy-ciber.github.io/beetroot/lesson_6)
    * [Lesson_6.1](https://yuriy-ciber.github.io/beetroot/lesson_6.1)
 * [Lesson_7](https://yuriy-ciber.github.io/beetroot/lesson_7)
-* [Lesson_8](https://yuriy-ciber.github.io/beetroot/lesson_8)
+* [Lesson_8](https://yuriy-ciber.github.io/beetroot/Lesson_8)
