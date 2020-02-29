@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+:root {
+  --max-width: 1120px;
+  --bg-color: #e2e7ec;
+  --grey: #8996a3;
+  --light-grey: #bababa;
+  --white: #ffffff;
+  --black: #1d1d1d;
+  --font: "Lato";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--bg-color);
+  font-family: var(--font);
+}
+main {
+}
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-top: 91px;
+  padding-bottom: 87px;
+}
+.container__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wrapper-big {
+  width: 740px;
+  height: 540px;
+}
+.wrapper {
+  width: 360px;
+  height: 251px;
+  margin-bottom: 28px;
+}
+.list__item--small {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  flex: 0 1;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+}
+.list__item time {
+  margin-bottom: 21px;
+}
+.text-big {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: var(--white);
+  letter-spacing: 0.75px;
+  margin-left: 43px;
+  margin-top: -150px;
+}
+.list__item-timefree .image {
+  margin-bottom: 62px;
+}
+.list__item_time_big {
+  margin-top: -400px;
+}
+time {
+  color: var(--light-grey);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-left: 28px;
+}
+.text {
+  color: var(--black);
+  text-align: left;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.55px;
+  margin-left: 27px;
+  margin-bottom: 70px;
+}
+.image-circle {
+  margin-left: 28px;
+  width: 54px;
+  height: 54px;
+}
+
+/* Style footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 87px;
+}
+.footer__img {
+  margin-right: 13px;
+}
+.footer__text {
+  color: var(--light-grey);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
