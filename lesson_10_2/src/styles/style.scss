@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900&display=swap");
+
+@import "./core/vars"; // переменные
+@import "./core/common"; //общие стили
+//блоки
+@import "./components/button";
+@import "./components/card";
+@import "./components/section";
+
+@import "./core/inheritace";

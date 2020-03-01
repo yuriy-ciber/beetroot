@@ -1,0 +1,55 @@
+.card {
+  height: 310px;
+  min-width: 300px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 50px;
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__content {
+    @extend %visible-z;
+    padding: 20px;
+    background-image: $content-gradient;
+  }
+
+  &__date-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    @extend %visible-z;
+    color: $white;
+    font-family: $base-font;
+    font-size: $date-fs;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 9px 12px 32px;
+    border-radius: 5px;
+    background-color: #262626;
+    opacity: 0.5;
+  }
+  &__title {
+    font-size: $card-title-fs;
+    color: $white;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+  &__text {
+    font-size: &card-text-fs;
+    color: $white;
+    font-weight: 300px;
+  }
+}

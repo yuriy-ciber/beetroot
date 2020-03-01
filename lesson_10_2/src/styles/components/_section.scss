@@ -1,0 +1,39 @@
+.section {
+  background-color: $bg-color;
+  padding: 100px 24px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    color: $white;
+    font-family: Raleway;
+    font-size: $section-title-fs;
+    font-weight: 700;
+    margin-bottom: 42px;
+    line-height: 0.75;
+  }
+
+  &__description {
+    color: $white;
+    font-family: Raleway;
+    font-size: $section-description-fs;
+    font-weight: 300;
+    line-height: 25px;
+    max-width: 566px;
+    text-align: center;
+    margin-bottom: 47px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    @extend %container;
+  }
+
+  &__list-item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}

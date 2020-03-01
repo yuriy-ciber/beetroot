@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('font/stylesheet.css');
 :root {
   --main-color: #fdde7e;
   --green: #02995b;
@@ -22,6 +23,9 @@ body{
     max-width: var(--max-width);
     margin: 0 auto;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
  }
 .list {
@@ -47,6 +51,7 @@ body{
     padding: 52px 102px 55px;
 }
 .list__price {
+    font-family: Miso;
     color: var(--green);
     font-size: 70px;
     font-weight: 700;
