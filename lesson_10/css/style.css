@@ -15,8 +15,8 @@
 }
 body {
   font-family: var(--font-main);
-  padding-top: 108px;
-  padding-bottom: 119px;
+  padding-top: 100px;
+  padding-bottom: 117px;
 }
 .header {
   display: flex;
@@ -32,19 +32,19 @@ body {
   text-transform: uppercase;
   letter-spacing: 8.95px;
   text-align: center;
-  padding-bottom: 20px;
+  margin-bottom: 15px;
 }
 .hr {
   color: var(--color-grey);
   height: 4px;
   width: 45px;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 .subtitle {
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
-  margin-bottom: 59px;
+  margin-bottom: 55px;
   width: 561px;
   text-align: center;
 }
@@ -58,6 +58,7 @@ body {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 21px;
 }
 .list__item {
   display: flex;
@@ -71,14 +72,18 @@ body {
   background-color: var(--color-blue);
   opacity: 0.9;
 }
+.card:not(:last-child) {
+  margin-right: 31px;
+}
 .card__image {
   position: absolute;
   left: 0;
   top: 0;
-  transition: all 1.5s ease;
+  object-fit: cover;
+  transition: all 1.5s ease-in;
 }
 .card__image:hover {
-  transform: translate(0px, -200px) scale(0.5, 0.5) translateX(130px);
+  transform: translate(0px, -200px) scale(0.5, 0.5) translateX(117px);
 }
 .wrapper-thumb {
   display: flex;
@@ -88,9 +93,43 @@ body {
   height: 42px;
   border: 1px solid var(--color-white);
   margin-right: 4px;
-  /* background-col: var(--color-white);
-  opacity: 0.3; */
 }
 
 .card__social-thumb {
+}
+.footer {
+  max-width: var(--max-width);
+  color: var(--color-black);
+  margin: 0 auto;
+}
+.footer__list {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+}
+.list__item-persons:nth-child(1) {
+  margin-right: 180px;
+}
+.list__item-persons:nth-child(2) {
+  margin-right: 195px;
+}
+.list__item-persons:nth-child(3) {
+  margin-right: 177px;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  color: var(--color-black);
+  font-family: var(--font-main);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.position {
+  color: #646464;
+  font-family: var(--font-main);
+  font-size: 14px;
+  font-weight: 300;
 }
