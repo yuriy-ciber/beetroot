@@ -6,31 +6,26 @@
   align-items: center;
 
   &__title {
-    color: $white;
-    font-family: Raleway;
     font-size: $section-title-fs;
     font-weight: 700;
-    margin-bottom: 42px;
-    line-height: 0.75;
-  }
-
-  &__description {
     color: $white;
-    font-family: Raleway;
+    line-height: 0.75;
+    margin-bottom: 42px;
+  }
+  &__description {
     font-size: $section-description-fs;
     font-weight: 300;
-    line-height: 25px;
-    max-width: 566px;
+    line-height: 1.5;
+    max-width: 570px;
     text-align: center;
+    color: $white;
     margin-bottom: 47px;
   }
-
   &__list {
+    @extend %container;
     display: flex;
     justify-content: space-between;
-    @extend %container;
   }
-
   &__list-item {
     &:not(:last-child) {
       margin-right: 30px;

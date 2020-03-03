@@ -1,11 +1,12 @@
 .button {
   background-color: $btn-color;
   color: $white;
-  font-family: Raleway;
+  font-family: $base-font;
   font-size: 20px;
   font-weight: 300;
   line-height: 25px;
   text-transform: uppercase;
   box-shadow: $button-shadow;
   padding: 20px 43px;
+  margin-top: 50px;
 }
