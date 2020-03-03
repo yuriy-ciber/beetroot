@@ -15,4 +15,5 @@
 * [Lesson_7](https://yuriy-ciber.github.io/beetroot/lesson_7)
 * [Lesson_8](https://yuriy-ciber.github.io/beetroot/Lesson_8)
 * [Lesson_9](https://yuriy-ciber.github.io/beetroot/lesson_9)
+* [Lesson_10](https://yuriy-ciber.github.io/beetroot/lesson_10)
 * [Lesson_10_2](https://yuriy-ciber.github.io/beetroot/lesson_10_2/build)
