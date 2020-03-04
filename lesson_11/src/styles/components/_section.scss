@@ -1,6 +1,7 @@
 main {
   @extend %container;
-  background-image: url("./images/strobery.png") center no-repeat;
+  height: 1087px;
+  background-image: url("/images/strobery.png") center no-repeat;
   background-size: cover;
 }
 .join {
