@@ -7,10 +7,10 @@
     <title>Cahhe</title>
   </head>
   <body>
-    <!-- main start -->
-    <main class="main">
+    <!-- header start -->
+    <div class="wrapper">
       <div class="header">
-        <div class="header__logo">
+        <div class=" logo header__logo">
           <a href="/" class="header__logo-link">
             <img src="./images/logo.png" class="header__logo-pic" alt="Cahee" />
           </a>
@@ -21,7 +21,7 @@
               <a href="#" class="header__link">Home</a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">About</a>
+              <a href="#about" class="header__link">About</a>
             </li>
             <li class="header__item">
               <a href="#" class="header__link">Servises</a>
@@ -38,22 +38,28 @@
           </ul>
         </nav>
       </div>
+
       <section class="join">
         <h1 class="join__titel">Fresh Life</h1>
         <p class="join__subtitel">
           Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
           enim ad minim veniam, quis nostrud exercitation ullamco.
         </p>
-        <button class="join__button">GET FREE NOW</button>
+        <a class="button" href="#">GET FREE NOW</a>
         <img src="./images/scroll.png" alt="" class="join__scroll" />
       </section>
-    </main>
-    <!-- footer start -->
-    <footer class="footer">
-      <img src="./images/raspberries.png" alt="raspberry" class="footer__img" />
-      <div class="footer__wrapper">
-        <h2 class="footer__title">About Us</h2>
-        <p class="footer__subtitle">
+    </div>
+
+    <!-- About start -->
+    <section id="about" class="section-about">
+      <img
+        src="./images/raspberries.png"
+        alt="raspberry"
+        class="section-about__image"
+      />
+      <div class="section-about">
+        <h2 class="section-about__titel">About Us</h2>
+        <p class="section-about__text">
           Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
           exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
@@ -64,6 +70,6 @@
           eaque ipsa quae ab illo inventore.
         </p>
       </div>
-    </footer>
+    </section>
   </body>
 </html>

@@ -1,5 +1,9 @@
-.header {
+.wrapper {
   @extend %container;
+  background-image: url("/images/strobery.png") center no-repeat;
+  background-size: cover;
+}
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,6 +20,7 @@
     font-weight: 700;
     line-height: 25px;
     text-transform: uppercase;
+    border-top: 3px solid transparent;
   }
   &__link:hover {
     border-top: 3px solid $orange;

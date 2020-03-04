@@ -1,12 +1,16 @@
-button {
+.button {
+  text-decoration: none;
   background-color: $btn-color;
   box-shadow: $btn-shadow;
   color: $white;
-  font-family: $base-font;
   font-size: 20px;
   font-weight: 300;
   line-height: 27px;
   text-transform: uppercase;
   padding: 20px 25px;
   align-self: start;
+
+  &__:hover {
+    cursor: pointer;
+  }
 }

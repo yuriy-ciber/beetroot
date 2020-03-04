@@ -1,7 +1,7 @@
-.footer {
+.section-about {
   @extend %container;
-  height: 1087px;
-  background-color: $footer-color;
+  // height: 1087px;
+  background-color: $about-color;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -13,7 +13,7 @@
     rgba(0, 156, 156, 0.9) 100%
   );
 
-  &__wrapper {
+  &__box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,17 +21,15 @@
 
   &__title {
     color: $white;
-    font-family: $base-font;
     font-size: 90px;
     font-weight: 700;
     line-height: 27px;
     margin-bottom: 34px;
   }
 
-  &__subtitle {
+  &__text {
     max-width: 499px;
     color: $white;
-    font-family: $base-font;
     font-size: 17px;
     font-weight: 300;
     line-height: 27px;

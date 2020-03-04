@@ -1,9 +1,3 @@
-main {
-  @extend %container;
-  height: 1087px;
-  background-image: url("/images/strobery.png") center no-repeat;
-  background-size: cover;
-}
 .join {
   display: flex;
   flex-direction: column;
