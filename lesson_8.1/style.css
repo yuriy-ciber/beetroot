@@ -52,23 +52,36 @@ main {
 .list__item time {
   margin-bottom: 21px;
 }
+.list__item--big {
+  position: relative;
+  width: 740px;
+  height: 567px;
+  display: flex;
+  flex-direction: column;
+}
 .text-big {
-  text-align: left;
+  position: absolute;
+  width: 433px;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
   color: var(--white);
   letter-spacing: 0.75px;
-  margin-left: 43px;
-  margin-top: -150px;
+  z-index: 1;
+  top: 440px;
+  left: 43px;
+}
+.time-big {
+  position: absolute;
+  left: 46px;
+  top: 404px;
+  z-index: 1;
 }
 .list__item-timefree .image {
   margin-bottom: 62px;
 }
-.list__item_time_big {
-  margin-top: -400px;
-}
+
 time {
   color: var(--light-grey);
   font-size: 13px;
