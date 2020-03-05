@@ -1,6 +1,6 @@
 .wrapper {
   @extend %container;
-  background-image: url("/images/strobery.png") center no-repeat;
+  background-image: url(/images/strobery.png) no-repeat;
   background-size: cover;
 }
 .header {
@@ -22,6 +22,7 @@
     text-transform: uppercase;
     border-top: 3px solid transparent;
   }
+
   &__link:hover {
     border-top: 3px solid $orange;
   }
