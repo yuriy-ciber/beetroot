@@ -1,0 +1,10 @@
+.owner-contact {
+  width: 317px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}

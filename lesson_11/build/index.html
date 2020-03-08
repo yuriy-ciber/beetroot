@@ -8,47 +8,58 @@
   </head>
   <body>
     <!-- header start -->
-    <div class="wrapper">
-      <div class="header">
-        <div class=" logo header__logo">
-          <a href="/" class="header__logo-link">
-            <img src="./images/logo.png" class="header__logo-pic" alt="Cahee" />
-          </a>
-        </div>
-        <nav class="header__nav">
-          <ul class="header__list">
-            <li class="header__item">
-              <a href="#" class="header__link">Home</a>
-            </li>
-            <li class="header__item">
-              <a href="#about" class="header__link">About</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Servises</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Gallery</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Blog</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <header class="header">
+      <nav class="navigation">
+        <div class="container navigation__container">
+          <h1 class="logo navigation__logo">Cahee</h1>
 
-      <section class="join">
-        <h1 class="join__titel">Fresh Life</h1>
-        <p class="join__subtitel">
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco.
-        </p>
-        <a class="button" href="#">GET FREE NOW</a>
-        <img src="./images/scroll.png" alt="" class="join__scroll" />
-      </section>
-    </div>
+          <label class="burger navigation__burger">
+            <input class="burger__input" type="checkbox" />
+            <span class="burger__box">
+              <span class="burger__item"></span>
+              <span class="burger__item"></span>
+              <span class="burger__item"></span>
+            </span>
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Home</a>
+              </li>
+
+              <li class="navigation__item">
+                <a href="#about" class="navigation__link">About</a>
+              </li>
+
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Services</a>
+              </li>
+
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Gallery</a>
+              </li>
+
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Blog</a>
+              </li>
+
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Contact</a>
+              </li>
+            </ul>
+          </label>
+        </div>
+      </nav>
+      <div class="container header__container">
+        <section class="header__content">
+          <h1 class="header__titel">Fresh Life</h1>
+          <p class="header__subtitel">
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          </p>
+          <a class="button" href="#">GET FREE NOW</a>
+        </section>
+        <a href="#about" class="scroll header__scroll"></a>
+      </div>
+    </header>
 
     <!-- About start -->
     <section id="about" class="section-about">
@@ -71,5 +82,82 @@
         </p>
       </div>
     </section>
+    <!-- About end -->
+    <!-- Contact start -->
+    <section class="contact">
+      <div class="contact__header">
+        <h2 class="contact__title">Contact</h2>
+        <p class="contact__subtitle">
+          For new projects, ideas, business or anything you'd like to discuss,
+          contact with me!
+        </p>
+      </div>
+      <div class="contact-box">
+        <div class="form-wrapper">
+          <form action="" method="GET" name="user-contact" class="contact-form">
+            <input
+              class="input"
+              type="text"
+              id="user-name"
+              placeholder="Your name..."
+              autofocus
+            /><br />
+            <input
+              class="input"
+              type="email"
+              id="user-email"
+              placeholder="Your email..."
+            /><br />
+            <input
+              class="input"
+              type="number"
+              id="user-phone"
+              placeholder="Your phone number..."
+            /><br />
+            <textarea
+              class="user-message"
+              name="user-contact"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your message..."
+            >
+            </textarea>
+          </form>
+        </div>
+        <div class="owner-contact">
+          <ul class="owner-contact list">
+            <li class="owner-contact__item">
+              <h3 class="list__title">ADDRESS</h3>
+              <span class="list__item-addres">
+                123 City name, Street, City, Country</span
+              >
+            </li>
+            <li class="owner-contact__item">
+              <h3 class="list__title">EMAIL</h3>
+              <span class="list__item-email"> cahee@domain.com</span>
+            </li>
+            <li class="owner-contact__item">
+              <h3 class="list__title">PHONE</h3>
+              <span class="list__phone">+012 345 6789</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Contact end -->
+    <!-- Footer start -->
+    <footer class="footer">
+      <span class="footer__copyright">© 2015 Company. All right reserved.</span>
+      <div class=" logo footer__logo">
+        <a href="#" class="footer__logo-link">
+          <img src="./images/logo.png" class="footer__logo-pic" alt="Cahee" />
+        </a>
+      </div>
+      <span class="footer__autor">
+        Made with<span class=" footer__autor footer __autor--red">love</span> by
+        Auskteez
+      </span>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,26 @@
+.footer {
+  @extend %container;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $footer-bg-color;
+
+  &__copyright {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    opacity: 0.5;
+    color: #b9b9b9;
+  }
+  &__autor {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    color: $grey;
+  }
+  &__autor--red {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ff2b58;
+  }
+}
