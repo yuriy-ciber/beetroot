@@ -12,7 +12,7 @@
       <nav class="navigation">
         <div class="container navigation__container">
           <h1 class="logo navigation__logo">Cahee</h1>
-
+    
           <label class="burger navigation__burger">
             <input class="burger__input" type="checkbox" />
             <span class="burger__box">
@@ -24,23 +24,23 @@
               <li class="navigation__item">
                 <a href="#" class="navigation__link">Home</a>
               </li>
-
+    
               <li class="navigation__item">
                 <a href="#about" class="navigation__link">About</a>
               </li>
-
+    
               <li class="navigation__item">
                 <a href="#" class="navigation__link">Services</a>
               </li>
-
+    
               <li class="navigation__item">
                 <a href="#" class="navigation__link">Gallery</a>
               </li>
-
+    
               <li class="navigation__item">
                 <a href="#" class="navigation__link">Blog</a>
               </li>
-
+    
               <li class="navigation__item">
                 <a href="#" class="navigation__link">Contact</a>
               </li>
@@ -52,100 +52,176 @@
         <section class="header__content">
           <h1 class="header__titel">Fresh Life</h1>
           <p class="header__subtitel">
-            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco.
           </p>
           <a class="button" href="#">GET FREE NOW</a>
         </section>
         <a href="#about" class="scroll header__scroll"></a>
       </div>
     </header>
-
-    <!-- About start -->
-    <section id="about" class="section-about">
-      <img
-        src="./images/raspberries.png"
-        alt="raspberry"
-        class="section-about__image"
-      />
-      <div class="section-about-box">
-        <h2 class="section-about__title">About Us</h2>
-        <p class="section-about__text">
-          Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-          <br />
-          <br />
-          Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error
-          sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-          eaque ipsa quae ab illo inventore.
-        </p>
-      </div>
-    </section>
-    <!-- About end -->
-    <!-- Contact start -->
-    <section class="contact">
-      <div class="contact__header">
-        <h2 class="contact__title">Contact</h2>
-        <p class="contact__subtitle">
-          For new projects, ideas, business or anything you'd like to discuss,
-          contact with me!
-        </p>
-      </div>
-      <div class="contact-box">
-        <div class="form-wrapper">
-          <form action="" method="GET" name="user-contact" class="contact-form">
-            <input
-              class="input"
-              type="text"
-              id="user-name"
-              placeholder="Your name..."
-              autofocus
-            /><br />
-            <input
-              class="input"
-              type="email"
-              id="user-email"
-              placeholder="Your email..."
-            /><br />
-            <input
-              class="input"
-              type="number"
-              id="user-phone"
-              placeholder="Your phone number..."
-            /><br />
-            <textarea
-              class="user-message"
-              name="user-contact"
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Your message..."
-            >
-            </textarea>
-          </form>
+    <main>
+      <!-- About start -->
+      <section id="about" class="section-about">
+        <div class="container section-about__container">
+          <img
+            src="./images/raspberries.png"
+            alt="raspberry"
+            class="section-about__image"
+          />
+          <div class="section-about-box">
+            <h2 class="section-about__title">About Us</h2>
+            <p class="section-about__text">
+              Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+              <br />
+              <br />
+              Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+              voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+              ipsa quae ab illo inventore.
+            </p>
+          </div>
         </div>
-        <div class="owner-contact">
-          <ul class="owner-contact list">
-            <li class="owner-contact__item">
-              <h3 class="list__title">ADDRESS</h3>
-              <span class="list__item-addres">
-                123 City name, Street, City, Country</span
-              >
-            </li>
-            <li class="owner-contact__item">
-              <h3 class="list__title">EMAIL</h3>
-              <span class="list__item-email"> cahee@domain.com</span>
-            </li>
-            <li class="owner-contact__item">
-              <h3 class="list__title">PHONE</h3>
-              <span class="list__phone">+012 345 6789</span>
-            </li>
-          </ul>
+      </section>
+      <!-- About end -->
+      <!-- Services start -->
+      <section class="section-services">
+        <div class="container section-services__container">
+          <div class="section-services__content-side">
+            <ul class="section-services__list">
+              <li class="section-services__item">
+                <a href="#" class="link-card">
+                  <div class="link-card__text-wrapper">
+                    <h3 class="link-card__text">online shopping</h3>
+                  </div>
+                  <div class="link-card__icon-wrapper">
+                    <img src="../images/cart.svg" alt="icon" />
+                    <!-- <svg class="link-card__icon">
+                      <use xlink:href="#cart"></use>
+                    </svg> -->
+                  </div>
+                </a>
+              </li>
+              <li class="section-services__item">
+                <a href="#" class="link-card">
+                  <div class="link-card__text-wrapper">
+                    <h3 class="link-card__text">Quality product</h3>
+                  </div>
+                  <div class="link-card__icon-wrapper">
+                    <img src="../images/hand.svg" alt="icon" />
+                    <!-- <svg class="link-card__icon">
+                      <use xlink:href="#hand"></use>
+                    </svg> -->
+                  </div>
+                </a>
+              </li>
+              <li class="section-services__item">
+                <a href="#" class="link-card">
+                  <div class="link-card__text-wrapper">
+                    <h3 class="link-card__text">Domestic & international delivary</h3>
+                  </div>
+                  <div class="link-card__icon-wrapper">
+                    <img src="../images/earth.svg" alt="icon" />
+                    <!-- <svg class="link-card__icon">
+                      <use xlink:href="#earth"></use>
+                    </svg> -->
+                  </div>
+                </a>
+              </li>
+              <li class="section-services__item">
+                <a href="#" class="link-card">
+                  <div class="link-card__text-wrapper">
+                    <h3 class="link-card__text">Well organized</h3>
+                  </div>
+                  <div class="link-card__icon-wrapper">
+                    <img src="../images/carrot.svg" alt="icon" />
+                    <!-- <svg class="link-card__icon">
+                      <use xlink:href="#carrot"></use>
+                    </svg> -->
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+      
+          <div class="section-services__picture-side">
+            <h2 class="section-services__title">Our Services</h2>
+            <img
+              class="section-services__image"
+              src="images/services.png"
+              alt="cup"
+            />
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- Contact end -->
+      </section>
+      <!-- Services end -->
+      <!-- Contact start -->
+      <section class="contact">
+        <div class="container contact__container">
+          <!-- <div class="contact__header"> -->
+            <h2 class="contact__title">Contact</h2>
+            <p class="contact__subtitle">
+              For new projects, ideas, business or anything you'd like to discuss,
+              contact with me!
+            </p>
+          </div>
+          <div class="contact-box">
+            <div class="form-wrapper">
+              <form action="" method="GET" name="user-contact" class="contact-form">
+                <input
+                  class="input"
+                  type="text"
+                  id="user-name"
+                  placeholder="Your name..."
+                  autofocus
+                /><br />
+                <input
+                  class="input"
+                  type="email"
+                  id="user-email"
+                  placeholder="Your email..."
+                /><br />
+                <input
+                  class="input"
+                  type="number"
+                  id="user-phone"
+                  placeholder="Your phone number..."
+                /><br />
+                <textarea
+                  class="user-message"
+                  name="user-contact"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Your message..."
+                >
+                </textarea>
+              </form>
+            </div>
+            <div class="owner-contact">
+              <ul class="owner-contact list">
+                <li class="owner-contact__item">
+                  <h3 class="list__title">ADDRESS</h3>
+                  <span class="list__item-addres">
+                    123 City name, Street, City, Country</span
+                  >
+                </li>
+                <li class="owner-contact__item">
+                  <h3 class="list__title">EMAIL</h3>
+                  <span class="list__item-email"> cahee@domain.com</span>
+                </li>
+                <li class="owner-contact__item">
+                  <h3 class="list__title">PHONE</h3>
+                  <span class="list__phone">+012 345 6789</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact end -->
+    </main>
     <!-- Footer start -->
     <footer class="footer">
       <span class="footer__copyright">© 2015 Company. All right reserved.</span>

@@ -37,3 +37,8 @@
     object-fit: contain;
   }
 }
+@mixin svg($size: 32px, $fill: black) {
+  width: $size;
+  height: $size;
+  fill: $fill;
+}

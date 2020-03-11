@@ -28,12 +28,12 @@
     @include text($H200, 300);
     max-width: 368px;
     line-height: 1.5;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
   &__scroll {
-    display: block;
     position: absolute;
-    top: 250px;
-    margin: 0 auto;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

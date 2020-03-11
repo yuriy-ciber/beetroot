@@ -3,15 +3,20 @@
 
 @import "./core/vars"; // переменные
 @import "./core/commons"; //общие стили
-@import "./core/mixins";
+@import "./core/mixins"; //миксины
+
+//общие блоки
+@import "./components/common/burger";
+@import "./components/common/button";
+@import "./components/common/logo";
+@import "./components/common/scroll";
+
 //блоки
-@import "./components/logo";
 @import "./components/header";
 @import "./components/navigation";
-@import "./components/scroll";
-@import "./components/burger";
-@import "./components/button";
 @import "./components/about";
+@import "./components/services";
+@import "./components/link-card";
 @import "./components/contact";
 @import "./components/contact-form";
 @import "./components/footer";

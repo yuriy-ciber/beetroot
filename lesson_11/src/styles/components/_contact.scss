@@ -1,14 +1,14 @@
 .contact {
-  @extend %container;
-  background-image: url(/imaces/bg-footer.png);
+  @extend %section;
+  height: 100vh;
+  background-image: url(/images/contact_bg.png);
+  background-size: cover;
+  background-position: center center;
   padding-top: 101px;
   padding-bottom: 120px;
 
-  &__header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  &__container {
+    @include flex(center, center, column);
   }
 
   &__title {
