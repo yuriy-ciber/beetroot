@@ -13,7 +13,14 @@
 
   &__content-side {
     width: 100%;
-    @include flex(center, center);
+    @include flex(center, center, column);
+    margin-bottom: 32px;
+    flex: 1 1;
+    @media screen and (min-width: $screen-desktop) {
+      width: 50%;
+      align-items: flex-start;
+      margin-bottom: 0;
+    }
   }
 
   &__list {
@@ -30,11 +37,14 @@
     @include flex(center, center, column);
     position: relative;
     width: 100%;
+    @include padding-hack(40%);
+    flex: 1 1;
   }
   &__title {
     @include text($H800, 700, $white);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 2;
   }
 }
