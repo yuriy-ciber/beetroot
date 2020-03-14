@@ -22,10 +22,13 @@
   @content;
 }
 
-@mixin padding-hack($padding: 50%) {
+@mixin padding-hack($padding: 50%, $size: contain, $dev: false) {
   position: relative;
   height: 0;
   padding-bottom: $padding;
+  @if $dev {
+    background-color: red;
+  }
   img {
     position: absolute;
     top: 0;
@@ -34,9 +37,19 @@
     right: 0;
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-position: center;
+    object-fit: $size;
+    @if $dev {
+      object-fit: contain;
+    }
   }
 }
+
+@mixin size($size) {
+  width: $size;
+  height: $size;
+}
+
 @mixin svg($size: 32px, $fill: black) {
   width: $size;
   height: $size;

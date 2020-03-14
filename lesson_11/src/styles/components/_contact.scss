@@ -1,6 +1,6 @@
-.contact {
+.section-contact {
   @extend %section;
-  height: 100vh;
+  @include flex(flex-end, center, column);
   background-image: url(/images/contact_bg.png);
   background-size: cover;
   background-position: center center;
@@ -8,7 +8,8 @@
   padding-bottom: 120px;
 
   &__container {
-    @include flex(center, center, column);
+    // @extend %container;
+    @include flex(space-around, flex-start);
   }
 
   &__title {
@@ -17,14 +18,17 @@
     font-weight: 700;
     color: $dark;
     margin-bottom: 48px;
+    // text-align: center;
   }
 
   &__subtitle {
+    display: block;
     width: 342px;
     font-size: 17px;
     line-height: 25px;
     font-weight: 300;
     color: $dark;
     margin-bottom: 46px;
+    text-align: center;
   }
 }

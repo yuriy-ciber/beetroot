@@ -1,9 +1,12 @@
 .footer {
-  @extend %container;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-color: $footer-bg-color;
+  padding-top: 32px;
+  padding-bottom: 31px;
+
+  &__container {
+    @extend %container;
+    @include flex(space-between, center);
+  }
 
   &__copyright {
     font-size: 16px;
@@ -11,6 +14,9 @@
     font-weight: 300;
     opacity: 0.5;
     color: #b9b9b9;
+  }
+  &__logo {
+    text-decoration: none;
   }
   &__autor {
     font-size: 15px;
