@@ -30,9 +30,9 @@ body {
 .header {
   width: var(--max-width);
   margin: 0 auto;
-  padding-top: 24px;
+  _padding-top: 24px;
 }
-h1 {
+.title {
   color: var(--white);
   display: inline-block;
   margin-bottom: 20px;
@@ -51,11 +51,11 @@ h1 {
   border: 2px solid var(--white);
   margin-bottom: 20px;
 }
-.container__list .list_item:not(:hover) {
+.container__list .list__item:not(:hover) {
   opacity: 0.65;
   transition: all 0.1s ease-in;
 }
-.list_item {
+.list__item {
   display: inline-block;
   border: 2px solid var(--white);
   text-align: center;
@@ -63,11 +63,11 @@ h1 {
   padding-bottom: 15px;
 }
 
-.list_item-cityname {
+.list__item-cityname {
   font-size: 24px;
   color: var(--white);
 }
-.list_item-temperature {
+.list__item-temperature {
   font-size: 24px;
   color: var(--white);
   opacity: 0.7;
@@ -88,50 +88,47 @@ h1 {
   font-weight: 500;
 }
 
-.list_item-block1 {
+.list__item-block1 {
   min-width: 50%;
   background-color: var(--main-color);
 }
-.list_item-block1:focus {
-  opacity: 1;
-}
-.list_item-block2 {
+.list__item-block2 {
   min-width: 25%;
   background-color: var(--green);
 }
-.list_item-block3 {
+.list__item-block3 {
   min-width: 25%;
   background-color: var(--purple);
 }
-.list_item-block4 {
+.list__item-block4 {
   min-width: 25%;
   background-color: var(--red);
 }
-.list_item-block5 {
+.list__item-block5 {
   min-width: 25%;
   background-color: var(--orange);
 }
-.list_item-block6 {
+.list__item-block6 {
   min-width: 25%;
   background-color: var(--yellow);
 }
-.list_item-block7 {
+.list__item-block7 {
   min-width: 25%;
   background-color: var(--light-green);
 }
-.list_item-block8 {
+.list__item-block8 {
   min-width: 25%;
   background-color: var(--grey);
 }
-.list_item-block9 {
+.list__item-block9 {
   min-width: 50%;
   background-color: var(--pink);
 }
-.list_item-block10 {
+.list__item-block10 {
   min-width: 25%;
   background-color: var(--dark-green);
 }
-.list_item-block11 {
+.list__item-block11 {
   min-width: 100%;
   background-color: var(--dark-grey);
 }

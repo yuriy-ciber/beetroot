@@ -23,9 +23,11 @@ header {
   align-items: center;
   text-align: center;
 }
-.header__list-item:not(first-child) {
+.header__list-item {
   width: 220px;
-  margin-left: 100px;
+}
+.header__list-item:not(:last-child) {
+  margin-right: 100px;
 }
 .header__caption {
   margin-bottom: 22px;
