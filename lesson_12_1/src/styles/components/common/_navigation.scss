@@ -1,0 +1,51 @@
+.nav {
+  min-width: 260px;
+  margin: 0 auto;
+  margin-bottom: 51px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 25px;
+  }
+
+  &__label {
+    font-family: $base-font;
+    font-size: $H200;
+    font-weight: 700;
+    color: $color-primary;
+    opacity: 0.3;
+    cursor: pointer;
+    transition: all 0.5sec ease;
+  }
+
+  &__devider {
+    content: "";
+    height: 2px;
+    background-color: red;
+    left: 0;
+    display: none;
+  }
+
+  &__radio {
+    display: none;
+  }
+
+  &__radio--sign-in:checked ~ &__devider--sign-in {
+    display: block;
+  }
+
+  &__radio--sign-in:checked + &__label--sign-in {
+    opacity: 1;
+  }
+
+  &__radio--join-us:checked ~ &__devider--join-us {
+    display: block;
+  }
+
+  &__radio--join-us:checked + &__label--join-us {
+    opacity: 1;
+  }
+}

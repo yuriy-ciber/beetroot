@@ -1,0 +1,109 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  min-width: 400px;
+  min-height: 500px;
+  background: url(../../images/form_bg.png),
+    linear-gradient(32deg, #3023ae 0%, #c86dd7 100%) center center no-repeat;
+  box-shadow: 1px 24px 26px -4px rgba(0, 0, 0, 0.61);
+  padding-top: 49px;
+  padding-bottom: 50px;
+
+  &__container {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+}
+
+.form {
+  &__control {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    margin-bottom: 11px;
+    font-family: $base-font;
+    color: $color-primary;
+    font-size: $H100;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  &__input:focus {
+    border: 2px solid $btn-sign;
+  }
+
+  &__input:invalid + .form__error {
+    visibility: visible;
+  }
+
+  &__error {
+    color: red;
+    font-size: $H10;
+    visibility: hidden;
+  }
+
+  &__label--checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background-color: $btn-sign;
+    font-size: 0;
+    margin-right: 7px;
+    border: 2px soild $btn-sign;
+    transition: ease 0.3sec font-size;
+  }
+
+  [type="checkbox"] {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    opacity: 0;
+  }
+  [type="checkbox"]:checked + .form__label .form__checkbox {
+    font-size: $H10;
+  }
+  [type="checkbox"]:focus + .form__label .form__checkbox {
+    border: 2px solid $btn-sign;
+  }
+
+  &__button:focus,
+  &__button:hover {
+    box-shadow: $btn-shadow;
+  }
+
+  &__advanced {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__link {
+    display: block;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 1px solid $color-secondary;
+    font-family: $base-font;
+    color: $color-secondary;
+    font-size: $H10;
+    font-weight: 400;
+    opacity: 0.65;
+    transition: all 0.5sec ease;
+  }
+  &__link:hover {
+    opacity: 1;
+  }
+}

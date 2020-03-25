@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sign in</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="modal">
+        <div class="container modal__container">
+          <div class="nav modal__nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <input
+                  checked
+                  type="radio"
+                  id="radio-sign"
+                  class=" nav__radio nav__radio--sign-in"
+                  name="form"
+                />
+                <label for="radio-sign" class="nav__label nav__label--sign-in"
+                  >Sign in</label
+                >
+                <span class="nav__devider nav__devider--sign-in"></span>
+              </li>
+              <li class="nav__item">
+                <input
+                  type="radio"
+                  id="radio-join"
+                  class=" nav__radio nav__radio--join-us"
+                  name="form"
+                />
+                <label for="radio-join" class="nav__label nav__label--join-us"
+                  >Join us</label
+                >
+                <span class="nav__devider nav__devider--join-us"></span>
+              </li>
+            </ul>
+          </div>
+
+          <form action="#" method="GET" class="form modal__form">
+            <div class="form modal__form">
+              <div class="form__control">
+                <label for="Username" class="form__label">Username</label>
+                <input
+                  type="text"
+                  class="input form__input"
+                  name="Username"
+                  id="Username"
+                  minlength="5"
+                />
+                <div class="form__error">Min length 5 simbol</div>
+              </div>
+
+              <div class="form__control">
+                <label for="Password" class="form__label">Password</label>
+                <input
+                  type="password"
+                  class="input form__input"
+                  name="Password"
+                  id="Password"
+                  required
+                />
+                <div class="form__error"></div>
+              </div>
+              <div class="form__control form__control--checkbox">
+                <input
+                  checked
+                  type="checkbox"
+                  class="form__input form__input--checkbox"
+                  name="keep"
+                  id="keep"
+                />
+                <label for="keep" class="form__label form__label--checkbox">
+                  <span class="form__checkbox">&#10004;</span> Keep me signed
+                  in</label
+                >
+              </div>
+              <button type="submit" class="button form__button">Sign in</button>
+              <div class="form__advanced">
+                <a href="#" class="form__link">Forgot password</a>
+                <a href="#" class="form__link">Create an account</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

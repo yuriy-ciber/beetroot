@@ -1,0 +1,32 @@
+//Font
+$base-font: "Quicksand";
+
+//Font colors
+$color-primary: #fbf6e4;
+$color-secondary: #b9b9cc;
+
+//Button color
+$btn-sign: #23ae92;
+$white: #fff;
+$btn-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+//Input color
+$input-bg: #e5eeee;
+$input-br-color: 2px solid rgba(191, 185, 204, 0.54);
+
+@function calcRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+//Text size
+$H900: calcRem(90px);
+$H800: calcRem(60px);
+$H700: calcRem(40px);
+$H600: calcRem(32px);
+$H500: calcRem(25px);
+$H400: calcRem(21px);
+$H300: calcRem(20px);
+$H200: calcRem(18px);
+$H100: calcRem(16px);
+$H50: calcRem(15px);
+$H10: calcRem(13px);
