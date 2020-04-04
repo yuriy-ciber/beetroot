@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
 
-@import "./core/vars";
+
+@import "../css/core/vars";
+@import "../css/core/common";
+@import "../css/core/mixins";
+
+@import "../css/components/common/button";
+@import "../css/components/common/input";
+
+//block
+@import "../css/components/header";
+@import "../css/components/apartament";
+@import "../css/components/footer";
+@import "../css/components/mountant";
+
+

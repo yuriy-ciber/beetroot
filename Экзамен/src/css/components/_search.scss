@@ -1,0 +1,6 @@
+.search{
+    background-color: $dark;
+    &__container{
+       @extend %container;    
+    }
+}

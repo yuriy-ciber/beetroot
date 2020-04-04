@@ -1,10 +1,40 @@
 <section class="header">
-  <h1 class="header__title">Bhromaon</h1>
-  <p class="header__subtitle">Safe Travel Anywhere</p>
-  <div class="form header__form">
-    <form action="" class="form">
-      <input type="text" class="input header__input" />
-      <button class="button header__button"></button>
-    </form>
+  <div class="container header__container">
+    <h1 class="header__title">Bhromaon</h1>
+    <p class="header__subtitle">Safe Travel Anywhere</p>
+    <div class="form header__form">
+      <form action="get" class="form">
+        <input type="text" class="input header__input" />
+        <button class="button header__button"></button>
+      </form>
+      <p class="header__scroll-text">Scroll Down</p>
+      <div class="header__scroll">
+        <svg class="scroll">
+            <use xlink:href="#arrow-down"/>
+          </svg>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="logo">Bhromaon</div>
+      <ul class="list navigation__list">
+        <li class="list__item">
+          <a href="#" class="navigation__link">Who We Are</a>
+        </li>
+        <li class="list__item">
+          <a href="#" class="navigation__link">What We Do</a>
+        </li>
+        <li class="list__item">
+          <a href="#" class="navigation__link">Travel With Us</a>
+        </li>
+        <li class="list__item">
+          <a href="#" class="navigation__link">Contact Us</a>
+        </li>
+      </ul>
+    </div>
   </div>
+  <svg display="none">
+      <symbol id="arrow-down">
+          <g><path  d="M896.125,616.651l-3.375-3.375,0.844-.844,5.906,5.907,5.906-5.977,0.844,0.844-6.75,6.82-0.844-.843Z" transform="translate(-892.75 -612.375)"/></g>
+      </symbol>
+  </svg>
 </section>

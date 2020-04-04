@@ -1,0 +1,45 @@
+.about {
+  @extend %section;
+  padding-top: 100px;
+  padding-bottom: 115px;
+  text-align: center;
+
+  &__container {
+    @extend %container;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 50px;
+    font-weight: 300;
+    color: $h2-color;
+    margin-bottom: 15px;
+
+    @include media {
+      font-size: 50px;
+      font-weight: 300;
+      color: $h2-color;
+      margin-bottom: 70px;
+    }
+  }
+
+  &__description {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: $description-color;
+    line-height: 2;
+
+    @include media {
+      display: block;
+      width: 1067px;
+      font-size: 16px;
+      font-weight: 400;
+      color: $description-color;
+      line-height: 2;
+    }
+  }
+}

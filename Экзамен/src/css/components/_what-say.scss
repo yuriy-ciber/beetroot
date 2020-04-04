@@ -1,0 +1,8 @@
+.what-say{
+    background-image: url(../../images/section-4.png);
+      background-size: cover;
+     background-position: center center;
+     &__container{
+      @extend %container;    
+     }
+}

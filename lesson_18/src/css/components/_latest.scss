@@ -1,0 +1,42 @@
+.latest {
+  @extend %section;
+  &__container {
+    @extend %container;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 194px;
+  }
+
+  &__list--work {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    font-size: 45px;
+    font-weight: 300;
+    color: $h2-color;
+    margin-bottom: 104px;
+  }
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__card:nth-child(n +):nth-child(-n + 3) {
+    align-items: flex-end;
+  }
+}
+
+.list {
+  &__item-work:nth-child(-n + 2),
+  &__item-work:nth-child(4),
+  &__item-work:nth-child(5) {
+    margin-right: 31px;
+  }
+  &__item-work:nth-child(-n + 3) {
+    margin-bottom: 31px;
+  }
+}
