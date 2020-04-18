@@ -1,8 +1,0 @@
-.apartament{
-    background-image: url(../../images/section-2.png);
-     background-size: cover;
-     background-position: center center;
-     &__container{
-      @extend %container;    
-     }
-}
