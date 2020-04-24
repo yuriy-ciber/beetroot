@@ -9,7 +9,6 @@ if (Number.isNaN(Number(userYearBirth))) {
 } else { 
     let userOld = (currentYear - userYearBirth);
     document.getElementById('app').innerHTML = `<h1>You ${userOld} old</h1>`;
-
 }
 
 
@@ -19,10 +18,10 @@ alert('The perimeter of square is' + ' ' + perimeter);
 
 let radius = prompt('Enter a radius');
 let squareCircle = (Math.PI * Math.pow(radius,2));
-alert('Square' + ' ' + squareCircle);
+alert('Square' + ' ' + Math.floor(squareCircle));
 
 let distance = prompt('Enter a distance from city');
-let minutes = prompt('Enter a distance from city at minutes');
+let minutes = prompt('Enter a time at minutes');
 let time = minutes / 60;
 let speed = distance / time;
 alert('Your speed must be' + ' ' + speed);
