@@ -16,30 +16,34 @@ checkMinNumber(num1, num2);
 function factorial(n) {
   return n != 1 ? n * factorial(n - 1) : 1;
 }
+alert("Task 2");
 let n = prompt("Enter the number to calculate factorial");
 alert(factorial(n));
 
 //3.Написать функцию, которая принимает три отдельные цифры и превращает их в одно число. Например: цифры 1, 4, 9 превратятся в число 149.
+alert("Task 3");
 let a = prompt("Enter first number");
 let b = prompt("Enter seconde number");
 let c = prompt("Enter third number");
 function joinNumber(a, b, c) {
   return Number(a + b + c);
 }
+
 alert(joinNumber(a, b, c));
 
 //4.Написать функцию, которая принимает длину и ширину прямоугольника и вычисляет его площадь. Если в функцию передали 1 параметр, то она вычисляет площадь квадрата.
 
-function calculateSquare(a, b) {
-  if (a && b == "") {
-    return a * a;
-  } else if (a == "" && b) {
-    return b * b;
-  } else return a * b;
+function calculateSquare(x, y) {
+  if (x && y == "") {
+    return x * x;
+  } else if (x == "" && y) {
+    return y * y;
+  } else return x * y;
 }
-let a = prompt("Enter first number");
-let b = prompt("Enter second number");
-alert(`Square = ${calculateSquare(a, b)}`);
+alert("Task 4");
+let x = prompt("Enter first number");
+let y = prompt("Enter second number");
+alert(`Square = ${calculateSquare(x, y)}`);
 
 //5.Написать функцию, которая проверяет, является ли переданное ей число совершенным. Совершенное число – это число, равное сумме всех своих собственных делителей.
 
@@ -95,7 +99,7 @@ alert(`Square = ${calculateSquare(a, b)}`);
 // alert(getTime(20, 56, 35));
 
 //9. Написать функцию, которая считает разницу между датами. Функция принимает 6 параметров, которые описывают 2 даты, и возвращает результат в виде строки «чч:мм:сс». При выполнении задания используйте функции из предыдущих 2-х заданий: сначала обе даты переведите в секунды, узнайте разницу в секундах, а потом разницу переведите обратно в «чч:мм:сс»
-
+alert("Task 9");
 let h1 = prompt("Enter hour1");
 let m1 = prompt("Enter minute1");
 let s1 = prompt("Enter second1");
@@ -111,4 +115,5 @@ function getDifferenceTime() {
     +hour1InSec + +min1InSec + +s1 - +hour2InSec - +minInSec2 - +s2;
   return defference;
 }
+
 alert(getDifferenceTime());
