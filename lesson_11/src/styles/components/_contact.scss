@@ -7,6 +7,10 @@
   padding-top: 101px;
   padding-bottom: 120px;
 
+  &__header {
+    @include flex(center, center, column);
+  }
+
   &__container {
     // @extend %container;
     @include flex(space-around, flex-start);

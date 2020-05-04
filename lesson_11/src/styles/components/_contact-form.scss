@@ -32,7 +32,6 @@ textarea {
   width: 502px;
   background-color: rgba($input-color, 0.5);
 }
-.input ::placeholder {
-  font-size: 24px;
+.input::placeholder {
   color: $white;
 }
