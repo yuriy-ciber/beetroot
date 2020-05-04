@@ -19,3 +19,4 @@
 * [Lesson_10_2](https://yuriy-ciber.github.io/beetroot/lesson_10_2/build)
 * [Lesson_12_1](https://yuriy-ciber.github.io/beetroot/lesson_12_1/build)
 * [Lesson_22](https://yuriy-ciber.github.io/beetroot/lesson_22)
+* [Lesson_23](https://yuriy-ciber.github.io/beetroot/lesson_23)
