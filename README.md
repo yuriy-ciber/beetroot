@@ -20,3 +20,4 @@
 * [Lesson_12_1](https://yuriy-ciber.github.io/beetroot/lesson_12_1/build)
 * [Lesson_22](https://yuriy-ciber.github.io/beetroot/lesson_22)
 * [Lesson_23](https://yuriy-ciber.github.io/beetroot/lesson_23)
+* [Lesson_24](https://yuriy-ciber.github.io/beetroot/lesson_24)
