@@ -21,4 +21,4 @@
 - [Lesson_22](https://yuriy-ciber.github.io/beetroot/lesson_22)
 - [Lesson_23](https://yuriy-ciber.github.io/beetroot/lesson_23)
 - [Lesson_24](https://yuriy-ciber.github.io/beetroot/lesson_24)
-- [Lesson_31_1](https://yuriy-ciber.github.io/beetroot/lesson_31_1)
+- [Lesson_31_1](https://yuriy-ciber.github.io/beetroot/lesson_31_1/dist)
