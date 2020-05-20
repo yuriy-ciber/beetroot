@@ -1,0 +1,39 @@
+.footer {
+  @include flex-row;
+
+  &__list {
+    @include flex-row;
+    margin-right: 40px;
+  }
+  &__item:not(:last-child) {
+    margin-right: 8px;
+  }
+  &__price {
+    @include flex-center;
+    margin-right: 45px;
+  }
+  &__price-off {
+    font-size: 12px;
+    font-weight: 700;
+    color: $yellow;
+    align-self: start;
+  }
+  &__price-now {
+    font-size: 32px;
+    color: $white;
+  }
+  &__button {
+    padding: 24px 34px 21px 36px;
+    background-color: $green;
+    font-size: 16px;
+    font-weight: 700;
+    color: $white;
+    border: none;
+    border-radius: 3px;
+  }
+  &__button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    color: #000;
+  }
+}
