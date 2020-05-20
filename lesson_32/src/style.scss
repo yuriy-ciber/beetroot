@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 65px;
+  margin-bottom: 105px;
+
+  &__subtitle {
+    color: #303030;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &__title {
+    text-align: center;
+    width: 996px;
+    color: #000000;
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 90px;
+  }
+  &__image-cross {
+    position: absolute;
+    right: 450px;
+    top: 50px;
+  }
+  &__image-triangle {
+    position: absolute;
+    left: 230px;
+    top: 230px;
+  }
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+.glide {
+  position: relative;
+  padding-left: 115px;
+
+  &__arrow--left {
+    position: absolute;
+    bottom: 190px;
+    left: -40px;
+    width: 96px;
+    height: 96px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    color: #000;
+    font-size: 30px;
+  }
+  &__arrow--right {
+    width: 96px;
+    height: 96px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    color: #000;
+    font-size: 30px;
+  }
+  &__page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 440px;
+    height: 400px;
+    background-image: url(images/Slide_1.png);
+    padding-bottom: 38px;
+  }
+  &__page-text {
+    margin-left: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  &__page-text--autor {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+}

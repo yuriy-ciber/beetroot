@@ -1,0 +1,21 @@
+{
+  "name": "test_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html --open",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "sass": "^1.26.5"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  }
+}

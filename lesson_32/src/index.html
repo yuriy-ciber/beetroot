@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Required Core Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+    <!-- Optional Theme Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
+    />
+    <link rel="stylesheet" href="style.scss" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="header">
+      <p class="header__subtitle">OUR FEATURED WORK</p>
+      <p class="header__title">
+        WE CREATE ENGAGING EXPERIENCES THROUGH CREATIVITY & CRAFT
+      </p>
+      <img class="header__image-cross" src="./images/cross.png" alt="cross">
+      <img class="header__image-triangle" src="./images/triangle.png" alt="triangle">
+    </div>
+    <div class="container">
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="glide__page">
+                <span class="glide__page-text">Apex Magazine</span>
+                <span class="glide__page-text">June Issue</span>
+                <span class="glide__page-text glide__page-text--autor"> by Fabrizio Morra</span>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="slide">
+                <img src="../src/images/Slide_2.png" alt="" />
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="slide">
+                <img src="../src/images/Slide_3.png" alt="" />
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="slide">
+                <img src="../src/images/Slide_4.png" alt="" />
+              </div>
+            </li>
+          </ul>
+        </div>
+       
+
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+             &#5176
+            </button>
+            <button
+              class="glide__arrow glide__arrow--right"
+              data-glide-dir=">"
+            >&#5171</button>
+          </div>
+        
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
