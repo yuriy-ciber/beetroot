@@ -39,7 +39,7 @@
   min-height: 500px;
   background: url(../image/form_bg.png),
     linear-gradient(32deg, #3023ae 0%, #c86dd7 100%) center no-repeat;
-  box-shadow: 0px 20px 17px 0px #877f80;
+
   padding-top: 49px;
   padding-bottom: 50px;
 }
