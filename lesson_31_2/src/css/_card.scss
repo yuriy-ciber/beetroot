@@ -40,6 +40,12 @@
   &__icon-wrapper {
     margin-bottom: 14px;
   }
+
+  &__icon {
+    width: 25px;
+    height: 25px;
+    fill: #b7bacd;
+  }
   &__icon-active {
     fill: $white;
   }
@@ -51,16 +57,7 @@
     font-size: 16px;
     position: relative;
   }
-  &__tab-text::before {
-    position: absolute;
-    content: "";
-    height: 2px;
-    width: 30px;
-    color: bisque;
-    left: 0px;
-    bottom: 10px;
-    z-index: 5;
-  }
+
   &__text-active {
     color: #fff;
   }

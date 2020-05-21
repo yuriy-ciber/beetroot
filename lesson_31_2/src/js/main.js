@@ -13,10 +13,10 @@ function fTabs(event) {
     //сравниваем значение атрибута с идексом элемента
     for (let i = 0; i < $icon.length; i++) {
       if (dataTab == i) {
-        $icon[i].classList.add(".card__icon-active");
+        $icon[i].classList.add("card__icon-active");
         console.log($icon);
       } else {
-        $icon[i].classList.remove(".card__icon-active");
+        $icon[i].classList.remove("card__icon-active");
       }
     }
     //сравниваем значение атрибута с идексом элемента
@@ -31,14 +31,15 @@ function fTabs(event) {
     //сравниваем значение атрибута с идексом элемента
     for (let i = 0; i < $tabtext.length; i++) {
       if (dataTab == i) {
-        $tabtext[i].classList.add(".card__text-active");
+        $tabtext[i].classList.add("card__text-active");
         console.log($tabtext);
       } else {
-        $tabtext[i].classList.remove(".card__text-active");
+        $tabtext[i].classList.remove("card__text-active");
       }
     }
     //функция отображения вкладок
     let content = document.getElementsByClassName("content__box");
+
     function changeTab(attribute, arr) {
       for (let i = 0; i < arr.length; i++) {
         if (attribute == i) {
@@ -50,6 +51,7 @@ function fTabs(event) {
     }
 
     changeTab(dataTab, content);
+
     //сравниваем значение атрибута с идексом элемента
     for (let i = 0; i < content.length; i++) {
       if (dataTab == i) {
@@ -70,6 +72,7 @@ function fTabs(event) {
           $btn.style.display = "block";
       }
     }
+    changeTabItem();
     $link.onclick = changeTabItem;
   }
 }
